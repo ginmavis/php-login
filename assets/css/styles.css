@@ -1,0 +1,135 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 1rem;
+}
+
+
+/*  */
+
+.index {
+   background-color: #cfcfcf;
+}
+
+.nav {
+   position: relative;
+   background-color: white;
+   top: 0;
+   height: 50px;
+}
+
+.form-signin {
+   position: absolute;
+   top: 0px;
+   right: 120px;
+   line-height: 50px;
+}
+
+.form-signin input {
+   border: none;
+   background-color: #e7e7e7;
+   padding: 7px;
+   border-radius: 5px;
+}
+
+.form-signin button {
+   border-radius: 2px;
+   border: none;
+   padding: 5px;
+   color: rgb(63, 60, 60);
+   font-weight: bolder;
+   font-size: 1rem;
+}
+
+.signup {
+   position: absolute;
+   float: right;
+   right: 40px;
+   top: 10px;
+   font-weight: bolder;
+   text-decoration: none;
+   color: white;
+   background-color: rgb(238, 93, 93);
+   padding: 5px;
+   border-radius: 2px;
+}
+
+.nav h1 {
+   font-family: arial;
+   font-size: 2rem;
+   margin-left: 30px;
+   line-height: 50px;
+   color: lightblue;
+}
+
+
+/*  */
+
+
+/* content */
+
+section h3 {
+   text-align: center;
+   font-size: 3rem;
+   color: rgba(0, 0, 0, 0.5);
+   line-height: 80px;
+}
+
+section .content {
+   text-align: center;
+   padding: 10px 35%;
+}
+
+section .content form {
+   background-color: white;
+   width: 100%;
+   padding: 10px 0;
+}
+
+section .content form p input {
+   width: 80%;
+   padding: 15px;
+   margin: 10px 0;
+   font-weight: bolder;
+   border-radius: 5px;
+   border: none;
+   background-color: #e7e7e7;
+   font-size: 1.2rem;
+}
+
+section .content form .btn {
+   background-color: rgb(238, 93, 93);
+   border: none;
+   padding: 10px;
+   font-weight: bolder;
+   color: white;
+   border-radius: 5px;
+}
+
+
+/*  */
+
+
+/*  */
+
+footer {
+   position: fixed;
+   bottom: 0px;
+   background: rgba(0, 0, 0, 0.5);
+   width: 100%;
+   padding: 15px 0;
+   text-align: center;
+   font-size: 2rem;
+   font-weight: bolder;
+   color: whitesmoke;
+   font-family: arial1;
+}
+
+footer a {
+   color: sandybrown;
+}
+
+
+/*  */
